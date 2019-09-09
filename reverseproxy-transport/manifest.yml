@@ -1,0 +1,8 @@
+---
+applications:
+- name: reverseproxy-transport-routeservice
+  memory: 128M
+  instances: 1
+  path: ./
+  properties:
+     GOPACKAGENAME: reverseproxy-transport-routeservice
