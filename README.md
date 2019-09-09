@@ -22,3 +22,7 @@ In both the above cases, we have used CF Route service
 https://docs.cloudfoundry.org/services/images/route-services-user-provided.png
 
 Route service is what we have designed in demos.
+
+cf create-user-provided-service SERVICE-INSTANCE -r ROUTE-SERVICE-URL
+
+cf bind-route-service DOMAIN SERVICE-INSTANCE --hostname HOSTNAME
