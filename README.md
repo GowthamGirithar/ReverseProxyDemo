@@ -1,6 +1,6 @@
 # ReverseProxyDemo
 
-Sample 1: 
+# Sample 1: 
 
 reverseproxy-transport 
 
@@ -8,7 +8,7 @@ Using the &httputil.ReverseProxy and define the transport which implements the R
 
 In this usecase end point validation proxy server (stop DELETE requests to hit main application)
 
-Sample 2:
+# Sample 2:
 
 reverseproxy-NewSingleHostReverseProxy
 
